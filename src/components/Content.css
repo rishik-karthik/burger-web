@@ -1,0 +1,75 @@
+.content {
+    color: #194027;
+    text-align: center;
+    padding: 2rem;
+}
+
+.welcome-mgs {
+    font-size: 6rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.about-msg {
+    font-size: 1.5rem;
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    line-height: 1.6;
+}
+
+.display {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    position: relative;
+}
+
+.display-msg {
+    width: 200px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.display-msg h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    font-weight: bolder;
+}
+
+.display img {
+    width: 350px;
+    height: 470px;
+    border-radius: 50% 50% / 15% 15%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.go-menu {
+    position: absolute;
+    right: 40%;
+    top: 45%;
+    transform: translate(50%, -50%);
+    background-color: #ED6B2D;
+    padding: 1rem;
+    border-radius: 50%;
+    border: 3px dashed #194027;
+    color: #194027;
+    font-weight: bold;
+    z-index: 2;
+    font-size: 1rem;
+    width: 140px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.go-menu a {
+    color: #194027;
+    text-decoration: underline;
+}

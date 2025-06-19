@@ -1,0 +1,77 @@
+.hero {
+    position: relative;
+    height: 90vh;
+    background-image: url('/src/assets/Hero-Burger.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 50%;
+}
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/src/assets/Hero-Burger.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5; /* Adjust opacity (0.0 to 1.0) */
+    z-index: -1; /* Places the background behind the content */
+}
+
+.hero-line {
+    color: #194027;
+    font-size: 15rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px #ffffff99;
+    /* optional: gives contrast */
+}
+
+.hero-msg {
+    color: #194027;
+    font-size: 5rem;
+    text-shadow: 2px 2px #FFF6ED;
+    margin-bottom: 1rem;
+}
+
+.hero-btn {
+    background-color: #ED6B2D;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.25rem;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin: 0.5rem;
+    border: 1px solid black;
+}
+.hero-btn-a{
+    color: white;
+    text-decoration: none;
+
+}
+.btn2 {
+    background-color: #FFF6ED;
+    color: #714B4B;
+    border: 1px solid black;
+}
+
+.hero-btn:hover {
+    background-color: #d95c22;
+    border-radius: 15px;
+}
+
+.btn2:hover {
+    background-color: #e0d6ca;
+    color: #714B4B;
+    border-radius: 15px;
+}
