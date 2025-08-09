@@ -1,4 +1,5 @@
 import './Content.css'
+import burgerImg from '../assets/Burger-content.jpg'
 
 export default function Content() {
     return (
@@ -19,7 +20,7 @@ export default function Content() {
                         <br />
                     </p>
                 </div>
-                <img src="src/assets/Burger-content.jpg" alt="bgr" />
+                <img src={burgerImg} alt="bgr" />
                 <div className="go-menu">SEE OUR &nbsp; <a href="/Menu"> MENU</a></div>
                 <div className="display-msg">
                     <h2>FIND US</h2>
